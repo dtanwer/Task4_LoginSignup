@@ -1,0 +1,45 @@
+.NavBar {
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: 0.3fr 2fr 1fr;
+}
+.homeHeading{
+    display: flex;
+}
+.homeHeading span{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.leftNav span:hover{
+    border-bottom: 3px solid #0AA7BD;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.leftNav span {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.rightNav {
+    text-align: right;
+}
+
+.search {
+    display: flex;
+    padding: 3px;
+    background-color: #F5F7FB;
+    color: #76768F;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 200px;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: #F5F7FB;
+    width: 10rem;
+}

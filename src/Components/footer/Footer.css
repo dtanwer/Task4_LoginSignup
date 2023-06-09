@@ -1,0 +1,16 @@
+.homeFooter{
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+.footerIcons{
+    display: flex;
+}
+.footerIcons p{
+    margin-left: 5rem;
+    color: #646477;
+
+}
+
+.footerIcons img{
+    margin: 10px;
+}
